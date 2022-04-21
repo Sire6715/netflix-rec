@@ -101,8 +101,11 @@
 }
 
 .row {display: flex;
-    flex-direction: column;
-    border-bottom: 0.5em solid rgb(107, 99, 99);
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    display: flex;
+    flex: 1 0 100%;
     }
  
 #h2 {color: white;
@@ -130,6 +133,7 @@
 
 .wrap {margin: 0;
         }  
+#neck-container {border-bottom: 0.5em solid rgb(107, 99, 99);}
 
 #img3 {width: 85%;
     height: 70%;

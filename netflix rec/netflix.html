@@ -11,7 +11,7 @@
 <body class="body container-fluid">
 <div class="story">
  <!--head-->
-  <div class="main">
+  <div class="main img-fluid">
       <div class="overlay">
          <div class="mainhead">
              <div class="header">
@@ -28,19 +28,24 @@
                          <p id="p1">Ready to watch? Enter your email <br>
                             to create or restart your<br>
                              membership.</p>
-
-                      <div class="rowwrap">
-                                  <div class="email col-12 col-md-12 col-lg-6 col-xl-12 d-flex">
+                <div class="container">
+                      <div class="row">
+                                  <div class="email col-12 col-md-12 col-lg-8 col-xl-8 d-flex">
                                           <form>
                                           <input id="email" placeholder="Email address" >
                                           </form>
                                 </div>
-                          <div>
-                                  <button id="start" class="col-12 col-md-12 col-lg-6 col-xl-12">Get started</button>
-                              </div>
-                            </div>  
+                                   <div class="col-12 col-md-12 col-lg-4 col-xl-4   clear-fix">
+                                          <button id="start">Get started</button>
+                                   </div>
+                        </div>  
+                </div>
+
+
                       </div>
                    </div>
+
+
                </nav>
          </div>
      </div>
@@ -50,7 +55,7 @@
 
  <!--neck-->
  <div class="container-fluid">
-    <div class="row">
+    <div class="row" id="neck-container">
                   <div class="neck col-lg-6 col-md-12 col-sm-12 col-12">
                                 <h1 id="h2">Enjoy on your tv</h1>
        
@@ -58,8 +63,8 @@
                                  chromecast,Apple,Blue-ray,<br> and more.</p>
                      </div>      
          
-                      <div class="wrap   col-lg-6 col-md-12 col-sm-12 col-12">
-                                <img id="img2" src="tv.png" height="100px" width="100px" >
+                      <div class="wrap  col-lg-6 col-md-12 col-sm-12 col-12">
+                                <img class="im-fluid" id="img2" src="tv.png" height="100px" width="100px" >
                      </div>
   </div>
  </div> 
