@@ -5,6 +5,8 @@
   <title>netflix</title>
   <link rel="stylesheet" href="netflix.css">
   <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
 </head>
@@ -21,25 +23,28 @@
                          <button class="button" type="submit">sign in </button>
                   </form>
              </div>
-                 <div class="intro col-12 col-md-12 col-lg-12 ">
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="intro col-12 col-md-12 col-lg-12 ">
                          <h1 id="h1">Unlimited movies, TV<br>
                             shows, and more.</h1>
                         <h6 id="h6">Watch anywhere. Cancel anytime.</h6>
                          <p id="p1">Ready to watch? Enter your email <br>
                             to create or restart your<br>
                              membership.</p>
-                <div class="container">
-                      <div class="row">
+                    </div>
+            
                                   <div class="email col-12 col-md-12 col-lg-8 col-xl-8 d-flex">
                                           <form>
                                           <input id="email" placeholder="Email address" >
                                           </form>
                                 </div>
-                                   <div class="col-12 col-md-12 col-lg-4 col-xl-4   clear-fix">
+                                   <div class="col-12 col-md-12 col-lg-4 col-xl-4  justify-contents-center clear-fix">
                                           <button id="start">Get started</button>
                                    </div>
-                        </div>  
-                </div>
+                 </div>  
+             </div>
 
 
                       </div>
@@ -57,29 +62,227 @@
  <div class="container-fluid">
     <div class="row" id="neck-container">
                   <div class="neck col-lg-6 col-md-12 col-sm-12 col-12">
+                      
                                 <h1 id="h2">Enjoy on your tv</h1>
        
                                 <p id="p2">watch on smart TVs,Playstation,<br>Xbox,
                                  chromecast,Apple,Blue-ray,<br> and more.</p>
                      </div>      
          
-                      <div class="wrap  col-lg-6 col-md-12 col-sm-12 col-12">
-                                <img class="im-fluid" id="img2" src="tv.png" height="100px" width="100px" >
+                      <div class="wrap col-sm-12 col-md-12  col-lg-6">
+                                <img class="img-fluid" id="img2" src="tv.png"100px" width="100px" >
                      </div>
+        </div>
   </div>
  </div> 
   <!--neck/-->
 
   <!--torso-->
-  <div class="torso">
-    <div class="torsowrap col-12 col-md-12 col-lg-6 d-flex">
-       <img id="img3" src="mobile-0819.jpg">
-   </div>
-       
-     <div class="torsotext col-12 col-md-12 col-lg-6 d-flex ">
-         <h1 id="h3"> Download your shows to watch offline.</h1>
-     </div>
+  <div class="container-fluid">
+      <div class="row" id="torso-container">
+        <div class="torsotext col-12 col-md-12 col-lg-6 ">
+            <h1 id="h3"> Download your shows to watch offline.</h1>
+
+             <p id="p3">Save your favorites easily and always have something 
+                 to watch.</p>
+         </div>
+
+             <div class="torso col-12 col-md-12 col-lg-6">
+                <img id="img3" src="mobile-0819.jpg">
+            </div>
+    </div>
  </div>
+<!--torso/-->
+
+<!--sub-->
+<div class="container-fluid">
+    <div class="row" id="sub">
+        <div class="sub   col-12 col-md-12 col-lg-6">
+            <h1 id="h3">Watch everywhere.</h1>
+
+            <p id="p3">Stream unlimited movies and TV
+                 shows on your phone, tablet, laptop, and TV.
+            </p>
+        </div>
+        
+    </div>
+</div>
+<!--sub/-->
+
+<!--kids-->
+<div class="container-fluid">
+     <div class="row" id="kids">
+                 <div class="kids col-12 col-md-12 col-lg-6">
+                       <h1 id="h3">Create profiles for kids.</h1>
+
+                        <p id="p3">Send kids on adventures 
+                           with their favorite characters 
+                           in a space made just for 
+                            with your membership.
+                      </p>
+                 </div>
+
+                   <div class="wrap col-12 col-md-12 col-lg-6">
+                          <img class="img-fluid" id="img3" src="kids.png" height="80px" width="100px" >
+                   </div>
+</div>
+</div>
+
+<!--kids/-->
+
+<!---FAQ-->
+   <div class="container-fluid">
+       <div class="row">
+             <h1 id="h3">Frequently Asked Questions</h1>
+
+             <br>
+            
+
+         <div class="container FAQ">
+                        <p1 class="FAQ1" data-toggle="collapse" data-target="#demo">What is Netflix?<span class="badge"><i class="bi bi-plus fa-2x" ></i></span></p1>
+                    <div class="collapse FAQ1" id="demo">
+                              Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+                             documentaries, and more on thousands of internet-connected devices.
+                          <br>
+                          <br>
+                          <br>
+                              You can watch as much as you want, whenever you want without a single commercial – 
+                            all for one low monthly price. There's always something new to discover and new TV shows
+                             and movies are added every week!
+                      </div>
+         </div>
+
+         <div class="FAQ">
+                <p1 class="FAQ1" data-toggle="collapse" data-target="#demo2">How much does Netflix cost?<span class="badge"><i class="bi bi-plus fa-2x" ></i></span></p1>
+          <div class="collapse FAQ1" id="demo2" >
+            Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. 
+            Plans range from ₦1,200 to ₦4,400 a month.
+             No extra costs, no contracts.
+          </div>
+   </div>
+
+   <div class="FAQ">
+    <p1 class="FAQ1" data-toggle="collapse" data-target="#demo3">Where can I watch?<span class="badge"><i class="bi bi-plus fa-2x" ></i></span></p1>
+<div class="collapse FAQ1 " id="demo3">
+    Watch anywhere, anytime. Sign in with your Netflix account 
+    to watch instantly on the web at netflix.com from your personal 
+    computer or on any internet-connected 
+    device that offers the Netflix app, including smart TVs,
+     smartphones, tablets, streaming media players and game
+      consoles.
+  <br>
+  <br>
+  You can also download your favorite shows with the iOS, 
+  Android, or Windows 10 app. Use downloads to watch while 
+  you're on the go and without an internet connection.
+   Take Netflix with you anywhere.
+</div>
+</div>
+
+  <div class="FAQ">
+    <p1 class="FAQ1" data-toggle="collapse" data-target="#demo4">How do I cancel?<span class="badge"><i class="bi bi-plus fa-2x" ></i></span></p1>
+<div class=" collapse FAQ1" id="demo4">
+    Netflix is flexible. There are no pesky contracts and
+     no commitments. You can easily cancel your account online
+      in two clicks. There are no
+     cancellation fees – start or stop your account anytime.
+</div>
+</div>
+
+<div class="FAQ">
+    <p1 class="FAQ1" data-toggle="collapse" data-target="#demo5"> What can I watch on Netflix?<span class="badge"><i class="bi bi-plus fa-2x" ></i></span></p1>
+<div class="FAQ1 collapse" id="demo5">
+    Netflix has an extensive library of feature films,
+     documentaries, TV shows, anime, award-winning Netflix 
+     originals, and more. 
+    Watch as much as you want, anytime you want.
+</div>
+</div>
+
+
+         </div>         
+       </div>
+   </div>
+
+<!--FAQ/-->
+
+<div class="container-fluid">
+    <div class="row">
+        <p id="p1">Ready to watch? Enter your email <br>
+            to create or restart your<br>
+             membership.</p>
+    </div>
+
+                  <div class="email col-12 col-md-12 col-lg-8 col-xl-8 d-flex">
+                          <form>
+                          <input id="email" placeholder="Email address" >
+                          </form>
+                </div>
+                   <div class="col-12 col-md-12 col-lg-4 col-xl-4  justify-contents-center clear-fix">
+                          <button id="start">Get started</button>
+                   </div>
+    </div>
+</div>
+ 
+<!--FAQ/-->
+
+
+<!--footer-->
+<div class="container">
+    <div class="row">
+        <p class="questions">Questions?contact us.</p>
+
+               <div class="footer col-4 col-sm-4  col-md-4 col-lg-3">
+                   <ul>
+                       <li><a href="#"  class="footer-item"></a></li>
+                       <li><a href="#"  class="footer-item">media center</a></li>
+                       <li><a href="#"  class="footer-item">ways to watch</a></li>
+                       <li><a href="#"  class="footer-item">cookie preferences</a></li>
+                       <br>
+                       <li><a href="#"  class="footer-item">speed test</a></li>
+                       <br>
+                       <br>
+                       <li><a href="#"  class="footer-item">netfix nigeria</a></li>
+                   </ul>
+               </div>
+
+               <div class="footer col-4 col-sm-4  col-md-4 col-lg-31">
+                <ul>
+                    <li><a href="#" class="footer-item">help center</a></li>
+                    <li><a href="#"  class="footer-item">investor relations</a></li>
+                    <li><a href="#"  class="footer-item">term of Use</a></li>
+                    <li><a href="#"  class="footer-item">coporate
+                         information</a></li>
+                    <br>
+                    <li><a href="#"  class="footer-item">legal notices</a></li>
+                </ul>
+            </div>
+
+            <div class="footer col-4  col-sm-4  col-md-4 col-lg-3">
+                <ul>
+                    <li><a href="#"  class="footer-item">account</a></li>
+                    <li><a href="#"  class="footer-item">jobs</a></li>
+                    <li><a href="#"  class="footer-item">privacy</a></li>
+                    <li><a href="#"  class="footer-item">contact us</a></li>
+                    <br>
+                    <li><a href="#"  class="footer-item">only on netflix</a></li>
+            </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
